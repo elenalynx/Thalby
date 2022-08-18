@@ -3,6 +3,15 @@
     margin: 0;
 }
 
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+}
+
 header {
     background-color: #ffffff;
     padding: 7px 0;
@@ -21,8 +30,17 @@ header {
     justify-content: space-between;
 }
 
+.justify-end {
+    justify-content: flex-end;
+}
+
 .align-center {
     align-items: center;
+}
+
+.p_top_bottom {
+    padding-top: 76px;
+    padding-bottom: 51px;
 }
 
 header ul {
@@ -119,8 +137,6 @@ header .logo {
 
 .people {
     background: rgba(204, 204, 204, 0.3);
-    padding-top: 76px;
-    padding-bottom: 51px;
 }
 
 .people .for_img {
@@ -130,14 +146,81 @@ header .logo {
 
 .people .for_img img {
     width: 100%;
-    display:  block;
-
+    display: block;
 }
 
 .people .description {
     max-width: 498px;
 }
 
-.people a {
-    text-decoration: none;
+.people h2, .culture h2, .power h2 {
+    padding-bottom: 31px;
+}
+
+.people a, .culture a, .power a {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #000000;
+}
+
+.people p {
+    padding-bottom: 40px;
+}
+
+.people p, .culture p, .power p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+}
+
+.culture {
+    background-color: rgba(204, 204, 204, 0.6);
+}
+
+.culture .for_img {
+    max-width: 385px;
+    margin-left: 50px;
+}
+
+.culture .for_img img {
+    width: 100%;
+    display: block;
+}
+
+.culture .description {
+    max-width: 513px;
+    text-align: right;
+}
+
+.culture p {
+    padding-bottom: 31px;
+}
+
+.power {
+    background: rgba(204, 204, 204, 0.3);
+}
+
+.power .for_img {
+    max-width: 385px;
+    margin-right: 50px;
+}
+
+.power .for_img img {
+    display: block;
+    width: 100%;
+}
+
+.power .description {
+    max-width: 530px;
+}
+
+.power p {
+    padding-bottom: 39px;
 }
