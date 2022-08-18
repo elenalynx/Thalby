@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 7px 0;
+}
+
+.container {
+    max-width: 1064px;
+    margin: auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+header ul {
+    list-style: none;
+}
+
+header nav li a {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #1C1B1B;
+    text-decoration: none;
+}
+
+header nav li {
+    margin-right: 28px;
+}
+
+header li:first-of-type {
+    margin-right: 16px;
+}
+
+header nav li:first-of-type {
+    margin-right: 28px;
+}
+
+header li:last-of-type {
+    margin-left: 7px;
+}
+
+header nav li:last-of-type {
+    margin-left: 0;
+}
+
+header .container {
+    position: relative;
+}
+
+header .logo {
+    position: absolute;
+    left: 50%;
+    margin-left: -40px;
+    top: 13px;
+}
+
+.main_banner {
+    padding: 90px 0;
+    background-color: #F0EFEB;
+    position: relative;
+}
+
+.main_banner h1 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    color: #000000;
+    margin-bottom: 42px;
+}
+
+.main_banner p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 26px;
+}
+
+.main_banner a {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    color: #FFFFFF;
+    background: #000000;
+    border: 1px solid #000000;
+    border-radius: 100px;
+    padding: 7px 23px;
+    text-decoration: none;
+}
+
+.main_banner img {
+    position: absolute;
+    right: 8%;
+    top: 0;
+}
+
+.people {
+    background: rgba(204, 204, 204, 0.3);
+    padding-top: 76px;
+    padding-bottom: 51px;
+}
+
+.people .for_img {
+    max-width: 385px;
+    margin-right: 50px;
+}
+
+.people .for_img img {
+    width: 100%;
+    display:  block;
+
+}
+
+.people .description {
+    max-width: 498px;
+}
+
+.people a {
+    text-decoration: none;
+}
