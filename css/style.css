@@ -12,6 +12,25 @@ h2 {
     color: #000000;
 }
 
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.a-link {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #000000;
+}
+
 header {
     background-color: #ffffff;
     padding: 7px 0;
@@ -22,23 +41,49 @@ header {
     margin: auto;
 }
 
+.container_1280 {
+    max-width: 1280px;
+    margin: auto;
+}
+
 .d-flex {
     display: flex;
+}
+
+.d-wrap {
+    flex-wrap: wrap;
 }
 
 .justify-between {
     justify-content: space-between;
 }
 
+.justify-around {
+    justify-content: space-around;
+}
+
 .justify-end {
     justify-content: flex-end;
 }
 
-.align-center {
-    align-items: center;
+.justify-center {
+    justify-content: center;
 }
 
-.p_top_bottom {
+.align-center {
+    align-items: center;
+
+}
+
+.align-start {
+    align-items: flex-start;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.p_top76_bottom51 {
     padding-top: 76px;
     padding-bottom: 51px;
 }
@@ -135,6 +180,85 @@ header .logo {
     top: 0;
 }
 
+/*___________________*/
+/*OUR BEST SELLERS*/
+/*-------------------*/
+.best_sellers {
+    background-color: #ffffff;
+    padding-top: 60px;
+    padding-bottom: 189px;
+}
+
+.best_sellers .guides h2:first-of-type {
+    padding-bottom: 27px;
+}
+
+.best_sellers .guides h2:last-of-type {
+    padding-bottom: 52px;
+}
+
+.best_sellers .guides p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.best_sellers .guides p:first-of-type {
+    padding-bottom: 47px;
+    max-width: 632px;
+    display: inline-block;
+}
+
+.best_sellers .guides p:last-of-type {
+    padding-bottom: 88px;
+}
+
+.best_sellers .cards .card {
+    max-width: 309px;
+    margin-right: 30px;
+}
+
+.best_sellers .cards .card:last-of-type {
+    margin-right: 0;
+}
+
+.best_sellers .cards .for_img {
+    max-width: 309px;
+    padding-bottom: 27px;
+    /*margin-right: 30px;*/
+}
+
+.best_sellers .cards .for_img:last-of-type {
+    max-width: 309px;
+    padding-bottom: 27px;
+    /*margin-right: 0;*/
+}
+
+.best_sellers .cards .for_img img {
+    display: block;
+    width: 100%;
+}
+
+.best_sellers .cards .description {
+    max-width: 156px;
+}
+
+.best_sellers .cards .description h3 {
+    padding-bottom: 17px;
+}
+
+.best_sellers .cards .description p {
+    padding-bottom: 10px;
+}
+
+.best_sellers .cards .description a {
+    padding-bottom: 8px;
+}
+
+/*------------------------*/
 .people {
     background: rgba(204, 204, 204, 0.3);
 }
@@ -155,16 +279,6 @@ header .logo {
 
 .people h2, .culture h2, .power h2 {
     padding-bottom: 31px;
-}
-
-.people a, .culture a, .power a {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 17px;
-    line-height: 20px;
-    text-decoration-line: underline;
-    color: #000000;
 }
 
 .people p {
@@ -223,4 +337,164 @@ header .logo {
 
 .power p {
     padding-bottom: 39px;
+}
+
+/*
+--------------------
+FEATURE
+------------------
+ */
+.features {
+    background-color: #ffffff;
+    padding-top: 190px;
+    padding-bottom: 52px;
+}
+
+.features h2 {
+    font-weight: 400;
+    padding-bottom: 69px;
+}
+
+.features .wrap_container {
+    max-width: 1088px;
+    margin: auto;
+}
+
+.features .wrap_container p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+    display: block;
+    /*flex-direction: column;*/
+    margin-top: 96px;
+    margin-bottom: 110px;
+    width: 339px;
+    position: relative;
+}
+
+.features .wrap_container p:before {
+    content: "";
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    background: #21F7EC;
+    border-radius: 35px;
+    /*margin-right: 30px;*/
+    position: absolute;
+    left: 50%;
+    margin-left: -35px;
+    top: -90px;
+}
+
+.features .wrap_container p:nth-child(2):before {
+    background: #33D3BC;
+}
+
+.features .wrap_container p:nth-child(3):before {
+    background: #18A5C6;
+}
+
+.features .wrap_container p:nth-child(4):before {
+    background: #D38F62;
+}
+
+.features .wrap_container p:nth-child(5):before {
+    background: #F94C43;
+}
+
+.features .wrap_container p:nth-child(6):before {
+    background: #D399FF;
+}
+
+/*
+--------------------
+VOICES
+------------------
+ */
+.voices {
+    background: #ffffff;
+    padding-top: 53px; /* такой отступ потому, что паддинг баттом 110рх у всех Р предыдущей секции*/
+    padding-bottom: 79px;
+}
+
+.voices .wrapper {
+    background-color: #F0F0F0;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+}
+
+.voices h2 {
+    padding-bottom: 290px;
+}
+
+.voices .voices_container {
+    height: 480px;
+    max-width: 1164px;
+    margin: auto;
+    position: relative;
+
+}
+
+.voices .voices_container p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.6px;
+    color: #000000;
+    padding-bottom: 40px;
+}
+
+.voices .voices_container h4 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 22px;
+    color: #000000;
+    padding-bottom: 44px;
+}
+
+.voices .voices_container h4 span {
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.voices .voices_container a {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration-line: underline;
+    color: #000000;
+    padding-bottom: 52px;
+}
+
+.voices .voices_container .item {
+    max-width: 288px;
+    position: absolute;
+    top: -40%;
+}
+
+.voices .voices_container .item:first-of-type {
+    left: 0;
+}
+
+.voices .voices_container .item:last-of-type {
+    right: 0;
+}
+
+.voices .voices_container .for_img {
+    max-width: 288px;
+    padding-bottom: 35px;
+}
+
+.voices .voices_container .for_img img {
+    width: 100%;
+    display: block;
 }
