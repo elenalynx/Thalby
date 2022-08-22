@@ -498,3 +498,161 @@ VOICES
     width: 100%;
     display: block;
 }
+
+/*
+______________
+FORM
+_______________
+ */
+.form {
+    background-color: #ffffff;
+    padding-top: 79px;
+    padding-bottom: 88px;
+}
+
+.form .container {
+    max-width: 570px;
+    margin: auto;
+}
+
+.form h2 {
+    padding-bottom: 9px;
+}
+
+.form p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 26px;
+}
+
+.form form.container {
+    max-width: 366px;
+    margin: auto;
+}
+
+.form .first_name {
+    width: 153px;
+}
+
+.form .last_name {
+    width: 155px;
+}
+
+.form .email {
+    width: 366px;
+}
+
+.form form input {
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 12px;
+    padding-bottom: 11px;
+    padding-left: 8px;
+}
+
+.form #first_name, .form #last_name {
+    margin-bottom: 16px;
+}
+
+.form #email {
+    margin-bottom: 18px;
+}
+
+.form input placeholder {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #A0A0A0;
+}
+
+.form .btn {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    background: #000000;
+    border: 1px solid #000000;
+    border-radius: 100px;
+    padding: 7px 23px 10px;
+    text-decoration: none;
+}
+
+/*
+______________
+FOOTER
+_______________
+ */
+footer {
+    padding-top: 51px;
+    padding-bottom: 16px;
+    background-color: #000000;
+}
+
+footer .logo_social {
+    max-width: 487px;
+}
+
+footer .logo_social a {
+    padding-bottom: 25px;
+    padding-left: 25px;
+    display: block;
+}
+
+footer .logo_social ul {
+    padding-bottom: 36px;
+    padding-left: 17px;
+}
+
+footer .logo_social ul li {
+    margin-right: 20px;
+}
+
+footer .links div {
+    max-width: 215px;
+    margin: auto;
+    margin: 0 25px;
+}
+
+footer .links div:last-of-type {
+    padding-right: 68px;
+}
+
+footer .links div h4 {
+    padding-bottom: 36px;
+}
+
+footer .links div p {
+    padding-bottom: 12px;
+}
+
+footer h4 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+footer p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+footer .by p {
+    line-height: 23px;
+}
