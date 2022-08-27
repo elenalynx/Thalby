@@ -9,7 +9,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
 </head>
 <body>
 <header>
@@ -51,14 +55,16 @@
     </div>
 </header>
 <section class="main_banner">
-    <div class="container">
+    <div class="container description">
         <h1>
             Fall deeper in love<br> with<br>
             humanity.</h1>
         <p>Get to know the world through our concise,<br>informative and inspiring guides.</p>
         <a href="#">Shop Now</a>
     </div>
-    <img src="images/image.png" alt="banner">
+    <div class="for_img justify-around align-center">
+        <img src="images/image.png" alt="banner">
+    </div>
 </section>
 <section class="best_sellers">
     <div class="container">
@@ -70,7 +76,7 @@
             <p>Available as ebooks here and on Amazon.</p>
             <h2>Our best sellers</h2>
         </div>
-        <div class="cards d-flex d-wrap justify-between align-center">
+        <div class="cards owl-carousel d-flex d-wrap justify-between align-center">
             <div class="card d-flex justify-center d-wrap">
                 <div class="for_img">
                     <img src="images/img1.png" alt="card">
@@ -93,7 +99,37 @@
             </div>
             <div class="card d-flex justify-center d-wrap">
                 <div class="for_img">
+                    <img src="images/img3.png" alt="card">
+                </div>
+                <div class="description text-center">
+                    <h3>Thalby Guide to German Culture and Heritage</h3>
+                    <p>USD 6.99</p>
+                    <a href="#" class="a-link">Add to cart</a>
+                </div>
+            </div>
+            <div class="card d-flex justify-center d-wrap">
+                <div class="for_img">
                     <img src="images/img1.png" alt="card">
+                </div>
+                <div class="description text-center">
+                    <h3>Thalby Guide to French Culture and Heritage</h3>
+                    <p>USD 6.99</p>
+                    <a href="#" class="a-link">Add to cart</a>
+                </div>
+            </div>
+            <div class="card d-flex justify-center d-wrap">
+                <div class="for_img">
+                    <img src="images/img2.png" alt="card">
+                </div>
+                <div class="description text-center">
+                    <h3>Thalby Guide to French People and Society</h3>
+                    <p>USD 6.99</p>
+                    <a href="#" class="a-link">Add to cart</a>
+                </div>
+            </div>
+            <div class="card d-flex justify-center d-wrap">
+                <div class="for_img">
+                    <img src="images/img3.png" alt="card">
                 </div>
                 <div class="description text-center">
                     <h3>Thalby Guide to German Culture and Heritage</h3>
@@ -147,7 +183,7 @@
 <section class="features">
     <div class="container_1280 text-center">
         <h2>Some of the features that<br>make Thalby guides unique</h2>
-        <div class="wrap_container d-flex d-wrap justify-around align-start">
+        <div class="wrap_container d-flex d-wrap justify-between align-center">
             <p>Written by<br>locals</p>
             <p>Packed with<br>insight</p>
             <p>Interviews with<br>diverse voices</p>
@@ -155,66 +191,60 @@
             <p>A concise<br>1-hour read</p>
             <p>Instant<br>digital access</p>
         </div>
+        <h2>Each Thalby guide includes interviews with<br>a range of fascinating voices, such as</h2>
     </div>
 </section>
 <section class="voices">
-    <div class="container_1280 text-center">
-        <h2>Each Thalby guide includes interviews with<br>a range of fascinating voices, such as</h2>
-        <div class="wrapper">
-            <div class="voices_container d-flex d-wrap justify-around align-center">
-                <div class="item">
-                    <div class="for_img">
-                        <img src="images/item1.png" alt="item">
-                    </div>
-                    <p>"I don’t like things to be conventional. If it’s too nice, I bring disorder."</p>
-                    <h4>Camille Muller,<span>Landscape Designer, France</span></h4>
-                    <a href="#">Discover</a>
-                </div>
-                <div class="item">
-                    <div class="for_img">
-                        <img src="images/item2.png" alt="item">
-                    </div>
-                    <p>"Magic is not magic in the sense that I can just wish for anything."</p>
-                    <h4>Sonia Kowalewski,<span>Witch, Germany</span></h4>
-                    <a href="#">Discover</a>
-                </div>
-                <div class="item">
-                    <div class="for_img">
-                        <img src="images/item3.png" alt="item">
-                    </div>
-                    <p>"I was eight years old when I entered my first competition. I won it."</p>
-                    <h4>Lilly Stoephasius,<span>Skateboarder, Germany</span></h4>
-                    <a href="#">Discover</a>
-                </div>
-            </div>
+    <div class="voices_container d-flex justify-around align-center">
+        <div class="item">
+            <img src="images/item1.png" alt="item">
+            <p>"I don’t like things to be conventional. If it’s too nice, I bring disorder."</p>
+            <h4>Camille Muller,<span>Landscape Designer, France</span></h4>
+            <a href="#">Discover</a>
+        </div>
+        <div class="item">
+            <img src="images/item2.png" alt="item">
+            <p>"Magic is not magic in the sense that I can just wish for anything."</p>
+            <h4>Sonia Kowalewski,<span>Witch, Germany</span></h4>
+            <a href="#">Discover</a>
+        </div>
+        <div class="item">
+            <img src="images/item3.png" alt="item">
+            <p>"I was eight years old when I entered my first competition. I won it."</p>
+            <h4>Lilly Stoephasius,<span>Skateboarder, Germany</span></h4>
+            <a href="#">Discover</a>
         </div>
     </div>
 </section>
 <section class="form">
     <div class="container text-center">
         <h2>Keep in touch</h2>
-        <p>Get our travel advice, global views and travel freebies in your inbox</p>
+        <p>Get our travel advice, global views and travel freebies in your<br>inbox</p>
         <form name="" action="#" class="container d-flex d-wrap justify-between align-center">
             <div class="first_name">
+                <label for="first_name"></label>
                 <input type="text" name="first_name" placeholder="First name" id="first_name">
             </div>
             <div class="last_name">
+                <label for="last_name"></label>
                 <input type="text" name="last_name" placeholder="Last name" id="last_name">
             </div>
             <div class="email">
+                <label for="Email"></label>
                 <input type="email" name="Email" placeholder="Email" id="email">
             </div>
             <div class="container d-flex d-wrap align-center justify-center">
-                <a href="#" class="btn">Subscribe</a>
+                <button type="submit">Subscribe</button>
             </div>
         </form>
     </div>
 </section>
 <footer>
-    <!--    <div class="container_1280">-->
     <div class="wrapper container_1280 d-flex d-wrap justify-between">
         <div class="logo_social">
-            <a href="#"><img src="images/logo_footer.svg" alt="logo"></a>
+            <a href="#">
+                <img src="images/logo_footer.svg" alt="logo">
+            </a>
             <ul class="social d-flex align-center">
                 <li>
                     <img src="images/fb_white.svg" alt="fb">
@@ -228,25 +258,33 @@
             </ul>
         </div>
         <div class="links d-flex d-wrap justify-between align-start">
-            <div>
-                <h4>ABOUT</h4>
-                <p>About Us</p>
-                <p>Privacy Policy</p>
-                <p>Terms and Conditions</p>
-                <p>Write for Us</p>
+            <div class="about">
+                <ul>
+                    <li><h4>ABOUT</h4></li>
+                    <li>About Us</li>
+                    <li>Privacy Policy</li>
+                    <li>Terms and Conditions</li>
+                    <li>Write for Us</li>
+                </ul>
             </div>
-            <div>
-                <h4>CONTACT</h4>
-                <p>Email hi@thalby.com</p>
-                <p>Help</p>
+            <div class="contact">
+                <ul>
+                    <li><h4>CONTACT</h4></li>
+                    <li>Email <a href="mailto:hi@thalby.com">hi@thalby.com</a></li>
+                    <li>Help</li>
+                </ul>
             </div>
         </div>
-
     </div>
     <div class="by container_1280 d-flex justify-center align-center">
         <p>Thalby LLC © 2021</p>
     </div>
-    <!--    </div>-->
 </footer>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="js/owl.carousel.js"></script>
+<script src="js/scripts.js"></script>
+<script src="https://kit.fontawesome.com/9bb7cecad3.js" crossorigin="anonymous"></script>
 </body>
 </html>
