@@ -77,10 +77,47 @@
         right: -10px;
     }
 
+    .people h2,
+    .culture h2,
+    .power h2 {
+        padding-bottom: 25px;
+    }
+
+    .people p,
+    .culture p,
+    .power p {
+        font-size: 2rem;
+        line-height: 36px;
+    }
+
+    .features {
+        padding-top: 150px;
+        padding-bottom: 250px;
+    }
+
+    .features .wrap_container {
+        max-width: 1024px;
+        padding-bottom: 20px;
+    }
+
+    .container_1280 {
+        max-width: 1200px;
+    }
+
+    .voices .voices_container {
+        max-width: 992px;
+        justify-content: center;
+        /*justify-content: space-around;*/
+    }
+
+    .features .wrap_container p {
+        margin-top: 90px;
+        margin-bottom: 90px;
+        width: 265px;
+    }
 }
 
 @media screen and (max-width: 1024px) {
-
 }
 
 @media screen and (max-width: 992px) {
@@ -139,6 +176,27 @@
     .best_sellers .cards .card {
         max-width: 265px;
     }
+
+
+    .features {
+        padding-top: 100px;
+        padding-bottom: 200px;
+    }
+
+    .features .wrap_container {
+        max-width: 992px;
+        padding-bottom: 10px;
+    }
+
+    .container_1280 {
+        max-width: 992px;
+    }
+
+    .features .wrap_container p {
+        margin-top: 80px;
+        margin-bottom: 80px;
+        width: 250px;
+    }
 }
 
 
@@ -169,14 +227,14 @@
     .people h2,
     .culture h2,
     .power h2 {
-        padding-bottom: 25px;
+        padding-bottom: 22px;
     }
 
     .people p,
     .culture p,
     .power p {
-        font-size: 2rem;
-        line-height: 34px;
+        font-size: 1.8rem;
+        line-height: 32px;
         padding-bottom: 25px;
     }
 }
@@ -245,6 +303,43 @@
     .voices_container .d-flex {
         flex-direction: column;
     }
+
+    .features {
+        padding-top: 50px;
+        padding-bottom: 200px;
+    }
+
+    .container_1280 {
+        max-width: 768px;
+    }
+
+    .features h2:first-of-type {
+        padding-bottom: 50px;
+    }
+
+    .features .wrap_container {
+        max-width: 768px;
+        padding-bottom: 5px;
+        justify-content: center;
+
+    }
+
+    .features .wrap_container p {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 200px;
+    }
+
+    .features .wrap_container p:before {
+        width: 50px;
+        height: 50px;
+        top: -70px;
+    }
+
+    .features .wrap_container p {
+        font-size: 1.5rem;
+        line-height: 27px;
+    }
 }
 
 @media screen and (max-width: 428px) {
@@ -253,9 +348,23 @@
         line-height: 14px;
     }
 
+    h2 {
+        font-size: 2rem;
+        line-height: 25px;
+    }
+
     .container {
-        padding: 0 5px;
         max-width: 428px;
+        padding: 0 5px;
+    }
+
+    .main_banner p,
+    .best_sellers .guides p,
+    .people p,
+    .culture p,
+    .power p {
+        font-size: 1.5rem;
+        line-height: 25px;
     }
 
     .best_sellers {
@@ -288,10 +397,46 @@
         padding-bottom: 10px;
     }
 
-    .people p, .culture p, .power p {
-        font-size: 2rem;
-        line-height: 30px;
+    .people p,
+    .culture p,
+    .power p {
         padding-bottom: 15px;
+    }
+
+    .features {
+        padding-top: 40px;
+        padding-bottom: 150px;
+    }
+
+    .container_1280 {
+        max-width: 428px;
+    }
+
+    .features h2:first-of-type {
+        padding-bottom: 50px;
+    }
+
+    .features .wrap_container {
+        justify-content: center;
+        max-width: 428px;
+        padding-bottom: 5px;
+    }
+
+    .features .wrap_container p {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 200px;
+    }
+
+    .features .wrap_container p:before {
+        width: 50px;
+        height: 50px;
+        top: -70px;
+    }
+
+    .features .wrap_container p {
+        font-size: 1.5rem;
+        line-height: 27px;
     }
 }
 
@@ -300,6 +445,8 @@
         font-size: 8px;
         line-height: 9px;
     }
+}
+
 }
 
 
