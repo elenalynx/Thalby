@@ -3,6 +3,117 @@
     margin: 0;
 }
 
+#dialog form {
+    height: 40px;
+    background-color: #D7B760;
+    overflow: hidden;
+    width: 120px;
+    border-radius: 20px;
+    transition: all 35ms ease-in-out;
+    cursor: pointer;
+}
+
+#dialog form input {
+    font-size: 12px;
+    padding-left: 10px;
+    height: 30px;
+    width: 60px;
+    opacity: 1;
+    border-radius: 15px;
+    border: #D7B760;
+    margin-left: 0;
+    transition: all 50ms ease-in-out;
+    outline: none;
+}
+
+#dialog form input:invalid:required,
+#dialog form input:invalid:required + button.btn_search {
+    background-image: linear-gradient(to right, #F0EFEB, #D7B760);
+}
+
+#dialog form:hover {
+    width: 300px;
+    transition: all 50ms ease-in-out;
+}
+
+#dialog form:hover input {
+    width: 240px;
+    margin-left: 5px;
+    opacity: 1;
+    transition: all 50ms ease-in-out;
+    padding-left: 10px;
+}
+
+#dialog button {
+    border-radius: 20px;
+    border: none;
+    background-color: #D7B760;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: all 50ms ease-in-out;
+    transform: rotate(0);
+}
+
+#dialog button:hover {
+    transform: rotate(360deg);
+    transition: all .3s ease-in-out;
+}
+
+#dialog button img {
+    width: 100%;
+    display: block;
+}
+
+.ui-widget {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.ui-widget-header {
+    background: #D7B760;
+    border: none;
+    padding: 0;
+}
+
+/*.ui-widget input {*/
+/*    font-family: 'Roboto', sans-serif;*/
+/*    font-style: normal;*/
+/*    font-weight: 400;*/
+/*    font-size: 12px;*/
+/*    padding-left: 10px;*/
+/*}*/
+
+.ui-dialog {
+    width: 400px !important;
+    height: auto !important;
+    background-color: #F0EFEB !important;
+    position: fixed !important;
+    top: calc(50% - 300px) !important;
+    left: calc(50% - 5px) !important;
+    border-radius: 5px !important;
+    box-shadow: 2px 3px 20px 0 #757373 !important;
+}
+
+.ui-dialog .ui-dialog-content {
+    min-height: auto !important;
+    min-width: auto !important;
+    padding: 0.5em 0.5em;
+}
+
+.ui-button .ui-icon {
+    transform: rotate(0);
+}
+
+.ui-button .ui-icon:hover {
+    transform: rotate(360deg);
+    transition: all .3s ease-in-out;
+}
+
+/*________________________
+*BODY
+*_____________________*/
 body {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -225,10 +336,15 @@ header .logo {
     padding-bottom: 88px;
 }
 
+.best_sellers .cards.container {
+    max-width: 1000px;
+}
+
 /*.best_sellers .cards .owl-carousel*/
 .best_sellers .cards .card {
     max-width: 309px;
     margin: auto;
+    /*padding: 2px;*/
 }
 
 /*.owl-carousel .owl-item {*/
@@ -576,6 +692,30 @@ _______________
     border-radius: 100px;
     padding: 7px 23px 10px;
     text-decoration: none;
+}
+
+.form form input + span {
+    position: relative;
+}
+
+.form form input + span::before {
+    position: absolute;
+    right: -20px;
+    top: 5px;
+}
+
+/*.form form input:invalid {*/
+/*    border: 2px solid red;*/
+/*}*/
+
+.form form input:invalid + span::before {
+    content: '✖';
+    color: red;
+}
+
+.form form input:valid + span::before {
+    content: '✓';
+    color: green;
 }
 
 /*

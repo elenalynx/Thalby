@@ -48,6 +48,10 @@
         padding-right: 23px;
     }
 
+    .best_sellers .cards.container {
+        max-width: 900px;
+    }
+
     .best_sellers {
         padding-top: 50px;
         padding-bottom: 150px;
@@ -158,6 +162,39 @@
     /*    font-size: 12px;*/
     /*    line-height: 20px;*/
     /*}*/
+    .ui-dialog {
+        width: 270px !important;
+        left: calc(50% - 138px) !important;
+    }
+
+    #dialog form {
+        height: 30px;
+    }
+
+    .ui-widget {
+        font-size: 13px;
+    }
+
+    #dialog form input {
+        height: 20px;
+        font-size: 10px;
+        padding-left: -20px;
+    }
+
+    #dialog form:hover {
+        width: 250px;
+    }
+
+    #dialog form:hover input {
+        width: 200px;
+    }
+
+    #dialog button {
+        width: 30px;
+        height: 30px;
+    }
+
+
     .container {
         max-width: 992px;
     }
@@ -191,6 +228,10 @@
     .best_sellers {
         padding-top: 40px;
         padding-bottom: 60px;
+    }
+
+    .best_sellers .cards.container {
+        max-width: 768px;
     }
 
     .owl-nav .owl-prev {
@@ -266,6 +307,10 @@
         top: 0;
     }
 
+    .best_sellers .cards.container {
+        max-width: 620px;
+    }
+
     .owl-nav .owl-prev {
         left: -2px;
     }
@@ -299,13 +344,20 @@
         right: 0;
     }
 
-    .best_sellers .cards {
-        flex-direction: column;
+    .best_sellers .cards.container {
+        max-width: 620px;
     }
 
+    /*.best_sellers .cards {*/
+    /*    flex-direction: column;*/
+    /*    flex-wrap: wrap;*/
+    /*}*/
+    /*.best_sellers .card .for_img {*/
+    /*    max-width: 200px;*/
+    /*}*/
     .best_sellers {
-        padding-top: 40px;
-        padding-bottom: 40px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 
     .best_sellers .guides h2:first-of-type {
@@ -438,6 +490,12 @@
     }
 }
 
+@media screen and (max-width: 700px) {
+    .best_sellers .cards.container {
+        max-width: 300px;
+    }
+}
+
 @media screen and (max-width: 505px) {
     footer {
         padding-top: 20px;
@@ -491,11 +549,10 @@
         line-height: 25px;
     }
 
-    .best_sellers {
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-
+    /*.best_sellers {*/
+    /*    padding-top: 20px;*/
+    /*    padding-bottom: 20px;*/
+    /*}*/
     .best_sellers .guides h2:first-of-type,
     .best_sellers .guides h2:last-of-type {
         padding-bottom: 5px;
@@ -593,6 +650,14 @@
     html {
         font-size: 8px;
         line-height: 9px;
+    }
+
+    .best_sellers .cards.container {
+        max-width: 250px;
+    }
+
+    .best_sellers .cards .card {
+        max-width: 210px;
     }
 
     .features .wrap_container p {
