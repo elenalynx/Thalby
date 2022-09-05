@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
 </head>
-<body>
+<body class="light">
 
 <div id="dialog" title="Find guide information" class="container">
     <form id="form_search" action="#" method="post" class="d-flex justify-center align-center">
@@ -30,24 +30,20 @@
 </div>
 
 <header>
-    <div class="container d-flex justify-between align-center">
-        <nav>
-            <ul class="d-flex align-center">
-                <li>
-                    <a href="#">Shop</a>
-                </li>
-                <li>
-                    <a href="#">Collections</a>
-                </li>
-                <li>
-                    <a href="#">Try a Free Guide</a>
-                </li>
-                <li>
-                    <a href="#">Stories</a>
-                </li>
-            </ul>
-        </nav>
-        <a href="#" class="logo"><img src="images/logo.svg" alt="logo"></a>
+    <div class="header-wrapper container d-flex justify-between align-center">
+        <div class="nav">
+            <nav class="nav__content">
+                <ul class="nav__list">
+                    <li class="nav__list-item active-nav"><a href="#" class="hover-target">Shop</a></li>
+                    <li class="nav__list-item"><a href="#" class="hover-target">Collections</a></li>
+                    <li class="nav__list-item"><a href="#" class="hover-target">Try a Free Guide</a></li>
+                    <li class="nav__list-item"><a href="#" class="hover-target">Stories</a></li>
+                </ul>
+            </nav>
+        </div>
+        <a href="#" class="logo">
+                <img src="images/logo.svg" alt="logo">
+            </a>
         <ul class="d-flex align-center">
             <li>
                 <a href="#" title="instagram">
@@ -65,8 +61,35 @@
                 </a>
             </li>
         </ul>
+        <div class="nav-but-wrap">
+            <div class="menu-icon hover-target">
+                <span class="menu-icon__line menu-icon__line-left"></span>
+                <span class="menu-icon__line"></span>
+                <span class="menu-icon__line menu-icon__line-right"></span>
+            </div>
+        </div>
     </div>
 </header>
+
+
+
+<!--<div class="section full-height over-hide">-->
+<!--    <div class="switch-wrap">-->
+<!--        <h1>overlay menu</h1>-->
+<!--        <div id="switch" class="hover-target">-->
+<!--            <div id="circle"></div>-->
+<!--        </div>-->
+<!--        <p><span>dark</span> - <span>light</span></p>-->
+<!--    </div>-->
+<!--</div>-->
+
+<!--<div class='cursor' id="cursor"></div>-->
+<div class='cursor2' id="cursor2"></div>
+<div class='cursor3' id="cursor3"></div>
+
+<!-- Link to page
+================================================== -->
+
 <section class="main_banner">
     <div class="container description">
         <h1>
